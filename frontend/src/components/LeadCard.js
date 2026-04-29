@@ -82,7 +82,10 @@ function LeadCard({ lead, onUpdate }) {
 
         {lead.budget && (
           <div className="budget-info">
-            💰 Budget: ${parseInt(lead.budget).toLocaleString()}
+            💰 Budget: {new Intl.NumberFormat('en-IN', {
+              style: 'currency',
+              currency: 'INR'
+            }).format(lead.budget)}
           </div>
         )}
 
