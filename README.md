@@ -123,7 +123,7 @@ To run it, you need PostgreSQL installed and configured with the above schema.
 
 ---
 
-## 🎥 Demo
+## Demo
 
 
 
