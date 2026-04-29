@@ -28,10 +28,9 @@ It allows sales teams to track leads, update their status, and monitor conversio
 
   * Search leads (by name, phone, or car model)
   * Dashboard statistics:
-
-  * Total leads
-  * Conversion rate
-  * Leads by source
+    * Total leads
+    * Conversion rate
+    * Leads by source
   * Card-based UI with responsive layout
   * Real-time updates after actions
 
