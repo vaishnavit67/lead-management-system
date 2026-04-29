@@ -98,8 +98,7 @@ CREATE TABLE leads (
   source VARCHAR(20),
   status VARCHAR(30) DEFAULT 'New',
   email VARCHAR(100),
-  budget INTEGER,
-  notes TEXT
+  budget INTEGER
 );
 ```
 
@@ -125,7 +124,7 @@ To run it, you need PostgreSQL installed and configured with the above schema.
 
 ## Demo
 
-
+https://drive.google.com/file/d/1G4D5QcK1Uo6rxNaYZ-YyZVXsWn6dIRqK/view?usp=sharing
 
 ---
 
