@@ -27,7 +27,6 @@ It allows sales teams to track leads, update their status, and monitor conversio
 ### Advanced Features
 
   * Search leads (by name, phone, or car model)
-  * Filter leads by status
   * Dashboard statistics:
 
   * Total leads
