@@ -63,7 +63,7 @@ function LeadForm({ onAdd, onClose }) {
               <label>Phone Number *</label>
               <input
                 name="phone"
-                placeholder="+1 234 567 8900"
+                placeholder="+91 1234567890"
                 value={form.phone}
                 onChange={handleChange}
               />
@@ -86,7 +86,7 @@ function LeadForm({ onAdd, onClose }) {
               <label>Car Model</label>
               <input
                 name="car_model"
-                placeholder="e.g., Tesla Model 3"
+                placeholder="e.g., Toyota Innova"
                 value={form.car_model}
                 onChange={handleChange}
               />
@@ -95,11 +95,11 @@ function LeadForm({ onAdd, onClose }) {
 
           <div className="form-row">
             <div className="form-group">
-              <label>Budget (USD)</label>
+              <label>Budget (INR)</label>
               <input
                 name="budget"
                 type="number"
-                placeholder="50000"
+                placeholder="500000"
                 value={form.budget}
                 onChange={handleChange}
               />
